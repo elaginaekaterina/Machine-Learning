@@ -50,7 +50,7 @@ ax.contour(X, Y, P, colors='k',
            levels = [-1, 0, 1], alpha = 0.5,
            linestyles = ['--', '-', '--'])
 
-# Опорне векторы
+# Опорные векторы
 if plot_support:
     ax.scatter(model.support_vectors_[:,0],
                model.support_vectors_[:,1],
